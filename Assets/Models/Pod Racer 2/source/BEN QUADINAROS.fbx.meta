@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 75a47f3d9dd05f84b98a8bc92de234c2
+timeCreated: 1573966530
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Box001
+    100012: Box002
+    100014: Cylinder001
+    100016: Cylinder003
+    100018: Cylinder004
+    100020: Cylinder005
+    100022: Group001
+    100024: Group002
+    100026: Group003
+    100028: Group004
+    100030: Group005
+    100032: Group006
+    100034: Group007
+    100036: Group008
+    100038: LBBbone
+    100040: LBFbone
+    100042: Line002
+    100044: LTBbone
+    100046: LTFbone
+    100048: Object001
+    100050: Object004
+    100052: Object005
+    100054: Object006
+    100056: Object007
+    100058: Object008
+    100060: Object009
+    100062: Object010
+    100064: Object011
+    100066: Object012
+    100068: Object013
+    100070: Object014
+    100072: Object015
+    100074: Object016
+    100076: Object017
+    100078: Object018
+    100080: Point001
+    100082: Point002
+    100084: Point003
+    100086: Point004
+    100088: Point005
+    100090: Point006
+    100092: Point007
+    100094: Point008
+    100096: Point009
+    100098: Point010
+    100100: Point011
+    100102: Point012
+    100104: RBBbone
+    100106: RBFbone
+    100108: RTBbone
+    100110: RTFbone
+    100112: "whurwiaj\u0105cy pindol"
+    400000: //RootNode
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Box001
+    400012: Box002
+    400014: Cylinder001
+    400016: Cylinder003
+    400018: Cylinder004
+    400020: Cylinder005
+    400022: Group001
+    400024: Group002
+    400026: Group003
+    400028: Group004
+    400030: Group005
+    400032: Group006
+    400034: Group007
+    400036: Group008
+    400038: LBBbone
+    400040: LBFbone
+    400042: Line002
+    400044: LTBbone
+    400046: LTFbone
+    400048: Object001
+    400050: Object004
+    400052: Object005
+    400054: Object006
+    400056: Object007
+    400058: Object008
+    400060: Object009
+    400062: Object010
+    400064: Object011
+    400066: Object012
+    400068: Object013
+    400070: Object014
+    400072: Object015
+    400074: Object016
+    400076: Object017
+    400078: Object018
+    400080: Point001
+    400082: Point002
+    400084: Point003
+    400086: Point004
+    400088: Point005
+    400090: Point006
+    400092: Point007
+    400094: Point008
+    400096: Point009
+    400098: Point010
+    400100: Point011
+    400102: Point012
+    400104: RBBbone
+    400106: RBFbone
+    400108: RTBbone
+    400110: RTFbone
+    400112: "whurwiaj\u0105cy pindol"
+    2100000: 'Material #2'
+    2100002: 'Material #4'
+    2100004: 'Material #41'
+    2300000: Cylinder001
+    2300002: Cylinder003
+    2300004: Cylinder004
+    2300006: Cylinder005
+    2300008: Object001
+    2300010: Object004
+    2300012: Object005
+    2300014: Object006
+    2300016: Object007
+    2300018: Object008
+    2300020: Object009
+    2300022: Object010
+    2300024: Object011
+    2300026: Object012
+    2300028: Object013
+    2300030: Object014
+    2300032: Object015
+    2300034: Object016
+    2300036: Object017
+    2300038: Object018
+    2300040: "whurwiaj\u0105cy pindol"
+    3300000: Cylinder001
+    3300002: Cylinder003
+    3300004: Cylinder004
+    3300006: Cylinder005
+    3300008: Object001
+    3300010: Object004
+    3300012: Object005
+    3300014: Object006
+    3300016: Object007
+    3300018: Object008
+    3300020: Object009
+    3300022: Object010
+    3300024: Object011
+    3300026: Object012
+    3300028: Object013
+    3300030: Object014
+    3300032: Object015
+    3300034: Object016
+    3300036: Object017
+    3300038: Object018
+    3300040: "whurwiaj\u0105cy pindol"
+    4300000: Line002
+    4300002: Object016
+    4300004: Object005
+    4300006: Object004
+    4300008: Cylinder003
+    4300010: Cylinder005
+    4300012: Object001
+    4300014: Cylinder001
+    4300016: Object017
+    4300018: Object014
+    4300020: "whurwiaj\u0105cy pindol"
+    4300022: Object015
+    4300024: Object009
+    4300026: Object008
+    4300028: Object011
+    4300030: Object018
+    4300032: Object007
+    4300034: Object006
+    4300036: Object010
+    4300038: Object013
+    4300040: Cylinder004
+    4300042: Object012
+    4300044: Box001
+    4300046: Box002
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Box001
+    13700002: Box002
+    13700004: Line002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: 9cb22826e3bd1994f996b7c29955395b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #4'
+    second: {fileID: 2100000, guid: 9a06434493494e846b348f2a962a5744, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #41'
+    second: {fileID: 2100000, guid: 04bf64368058a88479875e431051efd0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
