@@ -16,7 +16,10 @@ public class PlayerInput : MonoBehaviour
 	[HideInInspector] public float rudder;				//The current rudder value
 	[HideInInspector] public bool isBraking;			//The current brake value
 
-	void Update()
+    Vector2 startPos;
+    Vector2 direction;
+
+    void Update()
 	{
 		//If the player presses the Escape key and this is a build (not the editor), exit the game
 		if (Input.GetButtonDown("Cancel") && !Application.isEditor)
@@ -31,9 +34,36 @@ public class PlayerInput : MonoBehaviour
 			return;
 		}
 
-		//Get the values of the thruster, rudder, and brake from the input class
-		thruster = Input.GetAxis(verticalAxisName);
-		rudder = Input.GetAxis(horizontalAxisName);
-		isBraking = Input.GetButton(brakingKey);
+        //Get the values of the thruster, rudder, and brake from the input class
+        //thruster = Input.GetAxis(verticalAxisName);
+        //rudder = Input.GetAxis(horizontalAxisName);
+        thruster = 0.6f;
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            // Handle finger movements based on touch phase.
+            switch (touch.phase)
+            {
+                // Record initial touch position.
+                case TouchPhase.Began:
+                    startPos = touch.position;
+                    break;
+
+                // Determine direction by comparing the current touch position with the initial one.
+                case TouchPhase.Moved:
+                    direction = touch.position - startPos;
+                    break;
+
+                // Report that a direction has been chosen when the finger is lifted.
+                case TouchPhase.Ended:
+                    direction = Vector2.zero;
+                    break;
+            }
+
+            Debug.Log(string.Format("start pos: {0}, end pos: {1}", startPos, touch.position));
+        }
+        rudder = Mathf.Min(direction.x / Screen.width * 2, 1) * 0.85f;
+        isBraking = Input.GetButton(brakingKey);
 	}
 }
