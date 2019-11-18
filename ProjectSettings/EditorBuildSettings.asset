@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/_Completed/12 Sequencing the Countdown/12 Sequencing the Countdown.unity
+    guid: 8e2b6f0beabe0314d9256220c87a3173

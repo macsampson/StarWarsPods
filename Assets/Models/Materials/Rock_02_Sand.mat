@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Rock_02_Sand
-  m_Shader: {fileID: 4800000, guid: dfab5a5ee9486784e86938f3296616e9, type: 3}
+  m_Shader: {fileID: 10704, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0

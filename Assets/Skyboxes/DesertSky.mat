@@ -84,7 +84,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 3.5
+    - _Exposure: 1.18
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -97,12 +97,13 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SunDisk: 2
-    - _SunSize: 0.13
+    - _SunSize: 0.267
+    - _SunSizeConvergence: 5
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.7058823, g: 0.55648327, b: 0.25432524, a: 1}
-    - _SkyTint: {r: 0.625, g: 0.625, b: 0.625, a: 1}
+    - _GroundColor: {r: 0.7352941, g: 0.4920198, b: 0, a: 1}
+    - _SkyTint: {r: 0.25, g: 0.25, b: 0.25, a: 1}
     - _Tint: {r: 0.7058824, g: 0.83137256, b: 0.88235295, a: 1}

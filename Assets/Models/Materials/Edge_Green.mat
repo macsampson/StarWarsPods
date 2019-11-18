@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Edge_Green
-  m_Shader: {fileID: 4800000, guid: 4ee8a0a18f9c90745b059a0df1585a06, type: 3}
+  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _GRADIENTDIRECTION_ON
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -81,6 +81,7 @@ Material:
     - _GradientStrength: 0.08
     - _GradientThiccness: 4.83
     - _GradientTiling: 2.1
+    - _InvFade: 1
     - _MaskDarkLerp: 0.48
     - _MaskHeight: 0.77
     - _MaskLerpA: 0.84
@@ -115,4 +116,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientColor: {r: 0.84558815, g: 5, b: 1.0461463, a: 1}
     - _PatternColor: {r: 0.84558815, g: 5, b: 1.0461463, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _node_6896: {r: 0, g: 0.8344827, b: 1, a: 1}

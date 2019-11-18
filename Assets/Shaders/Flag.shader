@@ -48,8 +48,7 @@ Shader "Shader Forge/Flag" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles xboxone ps4 
-            #pragma target 3.0
+            //#pragma only_renderers d3d9 d3d11 glcore gles xboxone ps4 
             uniform float4 _Color1;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _BumpMap; uniform float4 _BumpMap_ST;
