@@ -1229,6 +1229,7 @@ MonoBehaviour:
   verticalAxisName: Vertical
   horizontalAxisName: Horizontal
   brakingKey: Brake
+  bulletParticleSystem: {fileID: 0}
   thruster: 0
   rudder: 0
   isBraking: 0
@@ -16452,6 +16453,16 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f53113acefa126e4fab0505483874f3b, type: 2}
   m_IsPrefabParent: 0
+--- !u!198 &1464464336 stripped
+ParticleSystem:
+  m_PrefabParentObject: {fileID: 198925691408196320, guid: f117bfd06286f584eaaa6169c5a55ba7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1977497828}
+--- !u!4 &1464464337 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1977497828}
 --- !u!1 &1504249532
 GameObject:
   m_ObjectHideFlags: 0
@@ -27442,6 +27453,7 @@ MonoBehaviour:
   verticalAxisName: Vertical
   horizontalAxisName: Horizontal
   brakingKey: Brake
+  bulletParticleSystem: {fileID: 1464464336}
   thruster: 0
   rudder: 0
   isBraking: 0
@@ -27600,6 +27612,7 @@ Transform:
   m_Children:
   - {fileID: 266191927}
   - {fileID: 39118897}
+  - {fileID: 1464464337}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 40.214, z: -1.386}
@@ -27702,4 +27715,56 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7d7b5b46ca6f454db73c34d0d47172c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1977497828
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1901530079}
+    m_Modifications:
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066393363409220, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 198925691408196320, guid: f117bfd06286f584eaaa6169c5a55ba7,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 198925691408196320, guid: f117bfd06286f584eaaa6169c5a55ba7,
+        type: 2}
+      propertyPath: randomSeed
+      value: 837435924
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f117bfd06286f584eaaa6169c5a55ba7, type: 2}
   m_IsPrefabParent: 0

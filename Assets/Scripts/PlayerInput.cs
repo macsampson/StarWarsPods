@@ -10,6 +10,8 @@ public class PlayerInput : MonoBehaviour
 	public string horizontalAxisName = "Horizontal";    //The name of the rudder axis
 	public string brakingKey = "Brake";                 //The name of the brake button
 
+    public ParticleSystem bulletParticleSystem;
+
 	//We hide these in the inspector because we want 
 	//them public but we don't want people trying to change them
 	[HideInInspector] public float thruster;			//The current thruster value
@@ -61,9 +63,21 @@ public class PlayerInput : MonoBehaviour
                     break;
             }
 
-            Debug.Log(string.Format("start pos: {0}, end pos: {1}", startPos, touch.position));
+            foreach (Touch t in Input.touches)
+            {
+                if (t.phase == TouchPhase.Ended && t.tapCount == 1)
+                {
+                    FireMissle();
+                }
+            }
+
         }
         rudder = Mathf.Min(direction.x / Screen.width * 2, 1) * 0.85f;
         isBraking = Input.GetButton(brakingKey);
 	}
+
+    void FireMissle()
+    {
+        bulletParticleSystem.Emit(1);
+    }
 }
