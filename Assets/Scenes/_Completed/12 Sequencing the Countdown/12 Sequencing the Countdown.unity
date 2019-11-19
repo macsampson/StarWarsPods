@@ -11630,33 +11630,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114610817507956994, guid: a3f49e0f9143040a78db2929d7a712e4,
         type: 2}
-      propertyPath: m_isInputParsingRequired
+      propertyPath: m_havePropertiesChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114610817507956994, guid: a3f49e0f9143040a78db2929d7a712e4,
         type: 2}
-      propertyPath: m_havePropertiesChanged
+      propertyPath: m_isInputParsingRequired
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224583250788664748, guid: a3f49e0f9143040a78db2929d7a712e4,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -876.8
+      value: -900
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a3f49e0f9143040a78db2929d7a712e4, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1068403108 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1801690611591876, guid: a3f49e0f9143040a78db2929d7a712e4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1037365601}
---- !u!114 &1068403109 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114610817507956994, guid: a3f49e0f9143040a78db2929d7a712e4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1037365601}
-  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
 --- !u!1 &1110032050
 GameObject:
   m_ObjectHideFlags: 0
@@ -23026,33 +23015,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 426b6f0130a325149a269d9626b86f29, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1756879992 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1498559723377236, guid: a3f49e0f9143040a78db2929d7a712e4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1037365601}
---- !u!320 &1756879993
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1756879992}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: fff30c9f74353db49b08d5f8c3b231d6, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 114315868867183796, guid: fff30c9f74353db49b08d5f8c3b231d6, type: 2}
-    value: {fileID: 1068403108}
-  - key: {fileID: 114004908205453176, guid: fff30c9f74353db49b08d5f8c3b231d6, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 114717952795009050, guid: fff30c9f74353db49b08d5f8c3b231d6, type: 2}
-    value: {fileID: 1068403109}
-  m_ExposedReferences:
-    m_References: []
 --- !u!198 &1759215751 stripped
 ParticleSystem:
   m_PrefabParentObject: {fileID: 198265733757997836, guid: 91a491030d02c1344967d9d4db23e489,
